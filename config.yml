@@ -66,7 +66,7 @@ auth:
     emailClaim: OPENID_CONNECT_EMAIL_CLAIM_PATH
     usernameClaim: OPENID_CONNECT_USERNAME_CLAIM_PATH
 sessionSecret: 5838b8cae006dc6cce6f3e5bf38344ff384975600a75baf38000035946f2898e
-db: 'mongodb://localhost:27017/wiki'
+db: 'mongodb://edsel:mintys35@ds231133.mlab.com:31133/wikijs'
 git: false
 features:
   linebreaks: true
