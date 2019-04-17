@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/Requarks/wiki#readme",
   "engines": {
-    "node": ">=6.11.1"
+    "node": "9.10.1"
   },
   "dependencies": {
     "auto-load": "~3.0.0",
