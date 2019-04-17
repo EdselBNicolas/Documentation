@@ -1,6 +1,6 @@
 title: Wiki
-host: 'http://192.168.254.69'
-port: 80
+host: 'http://10.10.0.30:8010'
+port: 8010
 paths:
   repo: ./repo
   data: ./data
@@ -65,9 +65,8 @@ auth:
     tokenURL: OPENID_CONNECT_TOKEN_URL
     emailClaim: OPENID_CONNECT_EMAIL_CLAIM_PATH
     usernameClaim: OPENID_CONNECT_USERNAME_CLAIM_PATH
-sessionSecret: 5838b8cae006dc6cce6f3e5bf38344ff384975600a75baf38000035946f2898e
-# db: 'mongodb://edsel:mintys35@ds231133.mlab.com:31133/wikijs'
-db: mongodb://localhost:27017/wiki
+sessionSecret: 3629ce098430ee4f67c31d5115985450174ed07bf1db1ebd2a73f534bbc6409c
+db: 'mongodb://localhost:27017/wiki'
 git: false
 features:
   linebreaks: true
